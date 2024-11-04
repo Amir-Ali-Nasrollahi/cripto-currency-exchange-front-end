@@ -2,7 +2,7 @@
     <section class="w-full h-full">
         <div class="h-full w-full">
             <div
-                class="h-full flex flex-col justify-between py-8 items-center bg-gradient-to-b from-orange-400 to-amber-400 rounded-2xl shadow-lg">
+                class="h-full flex flex-col justify-between py-8 items-center bg-gradient-to-b from-orange-400/85 to-amber-400/90 rounded-2xl shadow-lg">
                 <div class="h-full w-full flex flex-col items-center">
                     <h1 class="text-xl text-center mb-10">"CRP"</h1>
                     <ul class="h-1/2 flex flex-col items-start justify-around">
