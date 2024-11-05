@@ -1,6 +1,8 @@
 <template>
     <section
-        class="w-full h-full bg-gradient-to-br from-orange-300/70 to-amber-300/70 p-2 rounded-2xl shadow-xl flex flex-col items-center justify-start">
+        class="w-full h-full bg-gradient-to-tr from-orange-400/80 to-amber-400/80 p-2 rounded-2xl shadow-xl flex flex-col items-center justify-start">
+
+        
         <div class="flex flex-row items-center justify-between w-full p-2">
             <div class="flex flex-row items-center">
                 <label for="search">
@@ -27,11 +29,34 @@
 
         </div>
 
+        <!-- make toggle for transfer card -->
+         <div class="relative flex flex-row items-center justify-between bg-gradient-to-br from-orange-100 to-amber-100 w-2/3 h-16 mt-2 rounded-2xl">
+
+             <button class="z-10 w-1/2 text-lg" @click="TransferToggle">swap</button>
+             <button class="z-10 w-1/2 text-lg" @click="TransferToggle">optional</button>
+
+            <div class="bg-gradient-to-br from-orange-400/70 to-amber-400/70 transition-transform duration-200 ease-out z-0 w-1/2 h-4/5 rounded-2xl absolute" :class="{'translate-x-full' : toggle}"></div>
+
+         </div>
+
+
+         <!-- make transfer card -->
+          <div class="bg-gradient-to-br from-orange-100 to-amber-100 w-full h-28">
+            
+          </div>
 
 
     </section>
 </template>
 
 <script setup>
+import { ref } from 'vue';
+
+
+let toggle = ref(false)
+
+function TransferToggle() {
+    toggle.value = !toggle.value;
+}
 
 </script>

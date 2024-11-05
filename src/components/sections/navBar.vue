@@ -6,7 +6,7 @@
                 <div class="h-full w-full flex flex-col items-center">
                     <h1 class="text-xl text-center mb-10">"CRP"</h1>
                     <ul class="h-1/2 flex flex-col items-start justify-around">
-                        <li class="p-3 hover:cursor-pointer transition-all duration-50 ease-linear rounded-2xl hover:bg-orange-100">
+                        <li class="p-3 hover:cursor-pointer transition-all duration-50 ease-linear rounded-2xl bg-orange-100">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="size-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
