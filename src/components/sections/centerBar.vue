@@ -10,7 +10,7 @@
                 <h4 class="text-xs mt-1">the last update in 2003</h4>
             </div>
 
-            <div class=" text-white w-full flex flex-row justify-around">
+            <div class=" text-orange-100 w-full flex flex-row justify-around">
                 <div>
                     <button
                         class="bg-black rounded-2xl p-2 mx-1 shadow-md hover:shadow-sm transition-shadow duration-100">
