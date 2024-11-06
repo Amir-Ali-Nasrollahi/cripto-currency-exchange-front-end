@@ -2,7 +2,7 @@
     <section
         class="w-full h-full bg-gradient-to-tr from-orange-400/80 to-amber-400/80 p-2 rounded-2xl shadow-xl flex flex-col items-center justify-between">
 
-
+        <!--  -->
         <div class="flex flex-row items-center justify-between w-full p-2">
             <div class="flex flex-row items-center">
                 <label for="search">
@@ -44,11 +44,11 @@
 
         <!-- make transfer card -->
         <div class="flex flex-col items-center h-fit relative w-2/3 mb-10">
-            <div class="bg-gradient-to-br w-full rounded-2xl from-orange-100 to-green-200 h-44 my-1 p-5">
+            <div class="bg-gradient-to-br w-full rounded-2xl from-orange-100 to-green-500/40 h-44 my-1 p-5">
 
                 <div class="flex flex-row items-center justify-between">
                     <h5 class="text-xs">get</h5>
-                    <h5 class="text-xs bg-black text-orange-100 p-1 rounded-lg">TTR</h5>
+                    <h5 class="text-xs bg-black shadow-md text-orange-100 p-1 rounded-lg">TTR</h5>
                 </div>
 
                 <div class="flex flex-row items-center justify-start mt-2 mb-5">
@@ -66,7 +66,7 @@
             </div>
 
             <div
-                class="w-12 rounded-2xl h-12 bg-black absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 p-2 text-orange-100">
+                class="w-12 rounded-2xl h-12 bg-black shadow-md rotate-45 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 p-2 text-orange-100">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="">
                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -76,11 +76,11 @@
             </div>
 
 
-            <div class="bg-gradient-to-br w-full rounded-2xl from-rose-200 to-amber-100 h-44 my-1 p-5">
+            <div class="bg-gradient-to-br w-full rounded-2xl from-red-500/40 to-amber-100 h-44 my-1 p-5">
 
                 <div class="flex flex-row items-center justify-between">
                     <h5 class="text-xs">send</h5>
-                    <h5 class="text-xs bg-black text-orange-100 p-1 rounded-lg">BTC</h5>
+                    <h5 class="text-xs bg-black shadow-md text-orange-100 p-1 rounded-lg">BTC</h5>
                 </div>
 
                 <div class="flex flex-row items-center justify-start mt-2 mb-5">

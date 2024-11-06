@@ -1,15 +1,19 @@
 <template>
-    <section class="w-full h-full grid grid-cols-12 gap-2 text-orange-900 ">
-        <div class="h-full p-3">
+    <section class="w-full h-full md:grid md:grid-cols-12 md:gap-2 flex flex-col text-orange-900 ">
+        <div class="h-full lg:col-span-1 md:col-span-2 md:block hidden p-3">
             <NavBar />
         </div>
-        
-        <div class="h-full col-span-7 p-3">
+            
+        <div class="h-full lg:col-span-7 md:col-span-10 p-3">
             <CenterBar />
         </div>
 
-        <div class="h-full col-span-4 p-3">
+        <div class="h-full lg:block hidden lg:col-span-4 p-3">
             <RightBar />
+        </div>
+
+        <div class="md:hidden block w-full">
+            <NavBar class="fixed"/>
         </div>
     </section>
 </template>

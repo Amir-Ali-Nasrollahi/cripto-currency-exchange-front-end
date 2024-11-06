@@ -1,18 +1,17 @@
 <template>
-    <section class="w-full h-full">
+    <section class="w-full md:h-full h-14 md:p-2">
         <div class="h-full w-full">
             <div
-                class="h-full flex flex-col justify-between py-8 items-center bg-gradient-to-b from-orange-400/85 to-amber-400/90 rounded-2xl shadow-lg">
-                <div class="h-full w-full flex flex-col items-center">
-                    <h1 class="text-xl text-center mb-10">"CRP"</h1>
-                    <ul class="h-1/2 flex flex-col items-start justify-around">
+                class="h-full flex md:flex-col flex-row justify-between py-8 items-center bg-gradient-to-b from-orange-400/85 to-amber-400/90 rounded-2xl shadow-lg">
+                <div class="h-full w-full flex md:flex-col flex-row items-center">
+                    <h1 class="text-xl md:block hidden text-center md:mb-10">"CRP"</h1>
+                    <ul class="md:h-1/2 h-full md:w-auto w-full flex md:flex-col flex-row md:items-start justify-around items-center">
                         <li class="p-3 hover:cursor-pointer transition-all duration-50 ease-linear rounded-2xl bg-orange-100">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="size-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                             </svg>
-    
                         </li>
                         <li class="p-3 hover:cursor-pointer transition-all duration-50 ease-linear rounded-2xl hover:bg-orange-100">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -37,7 +36,7 @@
                         </li>
                     </ul>
                 </div>
-                <p class="p-3 hover:cursor-pointer transition-all duration-50 ease-linear rounded-2xl bg-orange-100 text-orange-400 ">
+                <p class="p-3 hover:cursor-pointer transition-all duration-50 ease-linear rounded-2xl bg-orange-100 text-orange-400 md:block hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6 hover:drop-shadow-sm">
                         <path stroke-linecap="round" stroke-linejoin="round"
