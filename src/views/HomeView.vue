@@ -20,7 +20,22 @@
 
         <!-- right bar -->
         <div class="h-full lg:block hidden lg:col-span-4 p-3">
-            <RightBar />
+            <right-bar>
+
+                <!--  -->
+                <div class="flex flex-row items-center justify-between w-full p-2">
+                    <SearchBox />
+
+                    <ContactUsIcon />
+
+                </div>
+
+                <!-- make toggle for transfer card -->
+                <ToggleTransfer />
+
+                <!-- make transfer card -->
+                <TradeCard />
+            </right-bar>
         </div>
         <!-- end make righ bar -->
 
@@ -33,6 +48,10 @@
 </template>
 
 <script setup>
+import ContactUsIcon from '@/components/piece/contactUsIcon.vue';
+import SearchBox from '@/components/piece/searchBox.vue';
+import ToggleTransfer from '@/components/piece/toggleTransfer.vue';
+import TradeCard from '@/components/piece/tradeCard.vue';
 import CenterBar from '@/components/sections/centerBar.vue';
 import NavBar from '@/components/sections/navBar.vue';
 import RightBar from '@/components/sections/rightBar.vue';
